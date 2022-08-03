@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Bemio_IGA";
+  src: url("../fonts/Bemio_IGA-Regular.otf") format("opentype"),
+    url("../fonts/Bemio_IGA-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "futurabt_bold";
+  src: url("../fonts/futurabt-bold-webfont.woff2") format("woff2"),
+    url("../fonts/futurabt-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+  border: 1px solid #000;
+  position: relative;
+}
+.text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+#logo {
+  width: 300px;
+  position: absolute;
+  text-align: center;
+  bottom: 17px;
+}
+#logo img {
+  height: 50px;
+}
+
+#top-section {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  background-image: url("../images/topshape.png");
+  z-index: 10;
+}
+#top-section #title-container {
+  position: absolute;
+  -ms-transform: rotate(-12.7deg) scale(2, 2);
+  -webkit-transform: rotate(-12.7deg) scale(2, 2);
+  transform: rotate(-12.7deg) scale(2, 2);
+  opacity: 0;
+  left: 30px;
+  top: 50px;
+}
+#top-section .big-txt {
+  font-size: 146px;
+  color: #fff;
+  font-family: "tt_masters";
+}
+#top-section .sales-txt {
+  font-size: 77px;
+  color: #ffc600;
+  font-family: "tt_masters";
+  line-height: 10px;
+}
+#middle-section {
+  position: absolute;
+  top: 100px;
+  opacity: 1;
+}
+#middle-section #photo1 {
+  position: absolute;
+  opacity: 1;
+}
+#middle-section #photo2 {
+  position: absolute;
+  opacity: 0;
+  left: -300px;
+}
+#middle-section #photo3 {
+  position: absolute;
+  opacity: 0;
+}
+#middle-section #photo4 {
+  position: absolute;
+  opacity: 0;
+}
+#last-screen {
+  width: 300px;
+  opacity: 0;
+}
+#last-screen .cta-button {
+  position: absolute;
+  width: 178px;
+  height: 58px;
+  background-color: #ffd200;
+  font-family: "futurabt_bold";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 16px;
+  left: 60px;
+  top: 272px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+}
+#upto-txt {
+  position: absolute;
+  top: 72px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+#off-txt {
+  position: absolute;
+  top: 214px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+#percent-txt {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  -ms-transform: rotate(-12.7deg) scale(2, 2);
+  -webkit-transform: rotate(-12.7deg) scale(2, 2);
+  transform: rotate(-12.7deg) scale(2, 2);
+  opacity: 0;
+}
+#percent-txt .percent {
+  color: #000;
+  font-size: 110px;
+  font-family: "tt_masters";
+  color: #db0000;
+}
+#last-screen .promo-sub {
+  font-family: "tt_masters";
+  font-size: 25px;
+  color: #000;
+}
+#bottom-section {
+  position: absolute;
+  width: 300px;
+  height: 216px;
+  background-image: url("../images/bottomshape.png");
+  top: 384px;
+}
